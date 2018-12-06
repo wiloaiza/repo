@@ -10,7 +10,7 @@ pipeline{
 	stages{
 		stage('Actualizar fuentes Nodo Windows') {
 		 	steps{
-		 		git url: 'https://github.com/wiloaiza/repo.git/EjercicioPipeLine.git', credentialsId: 'wiloaiza', branch: 'master'
+		 		git url: 'https://github.com/wiloaiza/repo.git', credentialsId: 'wiloaiza', branch: 'master'
 			}
 		}
 
